@@ -14,7 +14,7 @@ pip install meshtastic pypubsub requests
 
 ---
 
-## 🤖 Telegram Bot Setup
+## 🤖 Configuration
 
 1. Create your own bot via [BotFather](https://t.me/BotFather).
 2. Obtain your bot **token** and **chat ID** for the chat where you want to receive Meshtastic messages.
@@ -32,7 +32,7 @@ CHAT_ID = "your_chat_id_here"
 Once everything is configured, run the script:
 
 ```bash
-python meshtastic_telegram_chat.py
+python meshtastic_telegram.py
 ```
 
 The script will automatically forward messages between your Meshtastic device and your Telegram chat.
