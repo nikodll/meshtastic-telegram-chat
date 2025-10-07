@@ -8,9 +8,11 @@ This script forwards **Meshtastic** messages to a **Telegram bot** — and vice 
 
 ## 🛠️ Installation
 
+Install dependencies
 ```bash
 pip install meshtastic pypubsub requests
 ```
+and clone this repo.
 
 ---
 
