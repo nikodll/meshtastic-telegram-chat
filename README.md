@@ -34,7 +34,7 @@ CHAT_ID = "your_chat_id_here"
 Once everything is configured, run the script:
 
 ```bash
-python meshtastic_telegram.py
+python meshchat_telegram.py
 ```
 
 The script will automatically forward messages between your Meshtastic device and your Telegram chat.
